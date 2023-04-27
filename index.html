@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <!--Font awesome CSS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+          crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/6a81b3df7a.js" crossorigin="anonymous"></script>
+    <link src="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheet.css">
+
+    <!--  Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Titillium+Web:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cherry+Swash:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="dist/clipboard.min.js"></script>
+    <title>Alessio's Portfolio</title>
+  </head>
+  <body onclick="changeColour()">
+<!--  Navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top" id="myNav">
+  <a class="navbar-brand" href="#">
+</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+    <li class="nav-item active">
+        <a class="nav-link" href="mailto:alessiomartello@hotmail.co.uk"><i class="fa fa-envelope fa-3x" ></i></a>
+      </li>
+    <li class="nav-item active">
+        <a class="nav-link" href="https://drive.google.com/uc?export=download&id=1WthfHCVvk-BgGWDzihd3xx4jhXU_g0YQ" download="Alessio Martello CV"><i class="fa fa-file fa-3x"></i></a>
+    <li class="nav-item active">
+        <a class="nav-link" href="https://github.com/AlessioMartello" target="_blank" rel="noopener noreferrer"><i class="fa fa-github fa-3x"></i></a>
+    </li>
+    <li class="nav-item active">
+        <a class="nav-link" href="https://www.linkedin.com/in/alessiomartello/" target="_blank" rel="noopener noreferrer"><i class="fa fa-linkedin fa-3x"></i></a>
+    </li>
+    <li class="nav-item active">
+        <a class="nav-link" href="https://stackoverflow.com/users/13281532/aless" target="_blank" rel="noopener noreferrer"><i class="fa fa-stack-overflow fa-3x"></i></a>
+    </li>
+    </ul>
+  </div>
+</nav>
+
+    <!-- Hero -->
+<div class="text-center rounded-3 full-height" style="padding-bottom:5rem;">
+
+    <div class="d-flex justify-content-center align-items-center h-100">
+      <div class="text-white" id="app" style="width:80%;font-size:4rem"></div>
+    </div>
+<div class="change" title="Toggle Light/Dark mode" style="position:fixed;bottom:0;right:0;padding:2rem;z-index:999;">
+<i id="moon" class="fas fa-moon" style="font-size:3rem;color:white;"></i>
+<i id="sun" class="fas fa-sun" style="font-size:3rem;color:white;display:none;"></i>
+</div>    <div class="scroll-btn text-center align-items-center" id="myBtn">
+        <div><button class="button" onclick="scrollButton(1)" style="background-color:transparent; border:none;"><span id="btnSpan" style="color:#e1ad01">
+            <i class="fas fa-folder-open fa-3x"></i>
+        </span>
+            </button>
+        </div>
+        <div><p style="color:#e1ad01">
+            <b>Projects</b>
+        </p></div>
+    </div>
+<div>
+
+</div>
+</div>
+
+
+<!--  Projects-->
+<div class="full-height carouselDiv">
+   <!-- slider container -->
+    <div class="slider">
+
+      <!-- slide 1 -->
+      <div class="slide">
+        <div class="p-5">
+            <div class="row">
+                <a href="https://www.artlessi.co.uk/" target="_blank" rel="nofollow"> <h1 class="artlessiHeader">Artlessi</h1></a>
+            </div>
+            <div class="row">
+                <ul class="whitey">
+                    <li><h2>An online art community for amatuer artists</h2></li>
+                    <li><h2>Coded entirely from scratch!</h2></li>
+                    <li><h2>Functionality: Blog, commenting, payment, social media sharing, backend database</h2></li>
+                    <li><h2>Python Djano, Heroku, Stripe, HTML, CSS, Bootstrap</h2></li>
+                </ul>
+                <div class="container" style="text-align:center;">
+                     <a href="https://www.artlessi.co.uk" target="_blank" rel="nofollow"><img class="gif" src="https://user-images.githubusercontent.com/45970352/191059995-d221172d-0a4b-4a2d-92b1-5b494b29315b.gif"/></a>
+               </div>
+            </div>
+        </div>
+      </div>
+
+       <!-- slide 2 -->
+       <div class="slide">
+        <div class="p-5">
+            <div class="row">
+                <a href="https://alessio-finance-dash-app.herokuapp.com/" target="_blank" rel="nofollow"><h1 class="artlessiHeader">Finance Dash App</h1></a>
+            </div>
+            <div class="row">
+                <ul class="whitey">
+                    <li><h2>Python-built financial planner for importing, analysing and reporting on personal finances.<h2></li>
+                    <li><h2>Calculates key Financial KPIs to track my expenditure over time</h2></li>
+                    <li><h2>Python, Pandas, Python-Dash, Heroku, Plaid API</h2></li>
+                </ul>
+                <div class="container" style="text-align:center;">
+                    <a href="https://alessio-finance-dash-app.herokuapp.com/" target="_blank" rel="nofollow"><img class="gif" src="https://user-images.githubusercontent.com/45970352/176474976-eeb77e66-730b-49e3-aebf-eef7ba3dbde5.gif"/></a>
+                </div>
+            </div>
+        </div>
+      </div>
+
+       <!-- slide 3 -->
+       <!-- <div class="slide">
+        <div class="p-5">
+            <div class="row">
+                <a href="https://alessio-finance-dash-app.herokuapp.com/" target="_blank" rel="nofollow"><h1 class="artlessiHeader">Code Wars</h1></a>
+            </div>
+            <div class="row">
+                <ul class="whitey">
+                    <li><h2>Python, JavaScript and SQL coding challenges!<h2></li>
+                    <li><h2>Testing my logic and problem solving skills by solving various tests</h2></li>
+                    <li><h2>Learning from the community and impori</h2></li>
+                </ul>
+                <div class="container" style="text-align:center;">
+                    <a href="https://alessio-finance-dash-app.herokuapp.com/" target="_blank" rel="nofollow"><img src="https://user-images.githubusercontent.com/45970352/176474976-eeb77e66-730b-49e3-aebf-eef7ba3dbde5.gif"/></a>
+                </div>
+            </div>
+        </div>
+      </div> -->
+
+       <!-- Control buttons -->
+      <button class="btn btn-next" style="background-color:transparent;">
+          <i class="fas fa-angle-right fa-3x" style="color:#e1ad01">
+            </i></button>
+      <button class="btn btn-prev" style="background-color:transparent;">
+          <i class="fas fa-angle-left fa-3x" style="color:#e1ad01">
+            </i></button>    </div>
+
+    <div class="scroll-btn text-center align-items-center" style="position:absolute; bottom:0;">
+        <div><button class="button" onclick="scrollButton(2)" style="background-color:transparent; border:none;">
+        <span style="color:#e1ad01">
+           <i class="fas fa-angle-down fa-3x"></i>
+        </span>
+            </button>
+        </div>
+        <div><p style="color:#e1ad01">
+            <b>Page down</b>
+        </p></div>
+    </div>
+
+</div>
+
+<!-- Skills-->
+<div id="skills" style="color:white">
+    <div class="container p-5">
+            <h1 id="aboutMe" style="color:#e1ad01">About me</h1>
+      </div>
+    
+
+    <div class="container" id="scrollerRight" style="opacity:0;">
+        <h4>
+            <p>Hi! Thanks for stopping by! I’m Alessio and I'm <span id="myAge"></span>. I’m a self-taught programmer. I work as a Senior Data Engineer & Technical Consultant in the Private Equity industry. I lead end to end data migrations to the cloud.</p>
+        <p>In my spare time I'm commited to learning and teaching myself backend and frontend development programming skills.<br>
+        </h4>
+    </div>
+    <div class="container pt-0" id="scrollerLeft">
+        <h4>
+            <p>My tech stack:</p>
+
+        Back end
+            <ul>
+                <li>Python (<a href="https://github.com/AlessioMartello/VISSIM" target="_blank" rel="noopener noreferrer">Pandas</a>, Requests, <a href="https://github.com/AlessioMartello/finance-dash-app" target="_blank" rel="noopener noreferrer">Python-Dash</a>)</li>
+                <li>SQL (Data warehousing, Stored Procedures)</li>
+                <li>Azure Cloud Infrastructure Administration</li>
+            </ul>
+
+
+        Front end
+            <ul>
+                <li>HTML, CSS, Bootstrap</li>
+                <li>JavaScript (This very website)</li>
+                <li>Python (<a href="https://github.com/AlessioMartello/art_shop" target="_blank" rel="noopener noreferrer">Django</a>, <a href="https://github.com/AlessioMartello/Consulate-Bot" target="_blank" rel="noopener noreferrer">Selenium</a> & BeautifulSoup)</li>
+                <li>Power BI & DAX</li>
+            </ul>
+
+
+        Cloud
+            <ul>
+                <li>    Azure Cloud computing (Azure Data Factory, Azure Blob Storage, Logic Apps, Azure SQL databases, Azure Functions)</li>
+                <a href="https://www.credly.com/badges/42e2805f-34e5-4253-852b-7f73da020919/public_url" target="_blank" rel="noopener noreferrer"><li>    Microsoft Certified Azure Data Engineer Associate</a></li>
+                <li>    Heroku</li>
+                <li>    <a href="https://github.com/AlessioMartello/finance-dash-app" target="_blank" rel="noopener noreferrer">Google Drive API</a></li>
+                <li>Matllion</li>
+                <li>Snowflake</li>
+            </ul>
+
+
+        </h4>
+    </div>
+</div>
+
+<div class="container p-5" style="text-align: center;">
+    <a href="mailto:alessiomartello@hotmail.co.uk"><button id="getInTouch">Don't wait, get in touch!</button></a>
+</div>
+<!--Scroll top button-->
+    <div class="scroll-btn text-center align-items-center">
+        <div><button class="button" onclick="pageTop()" style="background-color:transparent; border:none;">
+        <span style="color:#e1ad01">
+           <i class="fas fa-angle-up fa-3x"></i>
+        </span>
+            </button>
+        </div>
+        <div><p style="color:#e1ad01">
+            <b>Page top</b>
+        </p></div>
+    </div>
+  </body>
+<script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+<script src="scripts.js"></script>
+
+</html>

@@ -1,0 +1,197 @@
+body{
+    background-color:#7026b9;
+}
+
+.button.focus, .button:focus {
+    outline:0;;
+}
+
+
+a{
+  color: #e1ad01;
+}
+a:hover{
+  color: #e1ad01;
+}
+
+.text-white{
+    font-size:100px;
+}
+
+.navbar{
+    background-color:rgba(0,0,0,0.5);
+    opacity:0;
+}
+
+.full-height{
+    height: 100vh;
+    width:100%;
+}
+
+.navbar:hover { opacity: 1 !important;
+ -webkit-transition: opacity 1s;
+    transition: opacity 1s;
+    }
+
+#myBtn{
+    opacity:0;
+}
+
+.carouselDiv {
+  display: grid;
+  place-items: center;
+  position:relative;
+}
+
+.slider {
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.slide {
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  position: absolute;
+  transition: all 0.5s;
+}
+
+.slide img {
+  object-fit: contain;
+}
+
+.btn {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  border: none;
+  border-radius: 50%;
+  z-index: 10px;
+  cursor: pointer;
+  background-color: #fff;
+  font-size: 18px;
+}
+
+.btn:active {
+  transform: scale(1.1);
+}
+
+.btn-prev {
+  top: 45%;
+  left: 2%;
+}
+
+.btn-next {
+  top: 45%;
+  right: 2%;
+}
+
+#navbarNav{
+justify-content: space-evenly;
+}
+
+.fa{
+    margin-left:2rem;
+    margin-right:2rem;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #e1ad01;
+  transition-duration: 1s;
+}
+
+.btn.focus, .btn:focus {
+outline:0;
+box-shadow: none;
+}
+
+#skills{
+overflow-x:hidden;
+font-family: 'Epilogue', sans-serif;
+
+}
+
+.inView{
+opacity: 1 !important;
+  transition: opacity 1s ease-in-out;
+}
+
+.outView{
+opacity: 0 !important;
+  transition: opacity 1s ease-in-out;
+}
+
+#aboutMe{
+padding-top:2rem;
+text-align:center;
+font-family: 'Cherry Swash', cursive;
+font-size:3rem;
+
+}
+
+.artlessiHeader{
+font-family:Sofia;font-weight:bold;font-size:6rem;}
+
+a:hover {
+text-decoration: none;
+}
+
+.whitey{
+color:white;
+padding-bottom: 1rem ;
+padding-top: 1rem;
+font-family: 'Epilogue', sans-serif;
+
+}
+
+.dark-mode{
+    background-color:black;
+}
+
+.sun-class{
+    display:block !important;
+}
+
+.moon-class{
+    display:none;
+}
+
+.change, i:hover{
+    cursor: pointer;
+    color:#e1ad01 !important;
+}
+
+#getInTouch{
+  background-color: #e1ad01; /* yellow */
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  border-radius: 1rem;
+  transition-duration: 0.7s;
+  font-weight:bold;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+
+#getInTouch:hover {
+  background-color: white;
+  color:#e1ad01;
+  font-size: larger;
+  box-shadow: 0 20px 20px 0 rgba(0,0,0,0.5), 0 30px 70px 0 rgba(0,0,0,0.59);
+}
+
+.nav-link{
+  display: contents;
+}
+
+.gif{
+  box-shadow: 0 20px 20px 0 rgba(0,0,0,0.5), 0 30px 70px 0 rgba(0,0,0,0.59);
+}
