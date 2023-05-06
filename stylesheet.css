@@ -195,3 +195,25 @@ font-family: 'Epilogue', sans-serif;
 .gif{
   box-shadow: 0 20px 20px 0 rgba(0,0,0,0.5), 0 30px 70px 0 rgba(0,0,0,0.59);
 }
+
+#app {
+  width:80%;
+  font-size:4rem
+}
+
+@media screen and (max-width: 700px) {
+
+  #app {
+  font-size: 2rem;
+  }
+  .artlessiHeader{
+    font-size: 3rem;
+  }
+  h2{
+    font-size: 1.5rem;
+  }
+  .hideGif{
+    display: none;
+  }
+  
+  }
