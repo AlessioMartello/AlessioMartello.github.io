@@ -201,7 +201,7 @@ font-family: 'Epilogue', sans-serif;
   font-size:4rem
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1024px) {
 
   #app {
   font-size: 2rem;
@@ -215,5 +215,4 @@ font-family: 'Epilogue', sans-serif;
   .hideGif{
     display: none;
   }
-  
   }
