@@ -118,7 +118,7 @@ typewriter
   .pauseFor(1000)
   .typeString('<br>Or check out my <a href="https://github.com/AlessioMartello" target="_blank" rel="noopener noreferrer">GitHub</a>')
   .pauseFor(1000)
-  .typeString('<br>My <a class="nav-link" href="https://drive.google.com/uc?export=download&id=1WthfHCVvk-BgGWDzihd3xx4jhXU_g0YQ" download="Alessio Martello CV">CV</a> is <em>really</em> nice also...')
+  .typeString('<br>My <a class="nav-link" href="https://drive.google.com/uc?export=download&id=1_FmbV_YL1vQjFvK2eyPwh_ujR3ChfgAP" download="Alessio Martello CV">CV</a> is <em>really</em> nice also...')
   .pauseFor(1000)
   .typeString('<br><span style="font-family: Dancing Script, cursive;">P.s. I made this site myself</span>')
   .start();

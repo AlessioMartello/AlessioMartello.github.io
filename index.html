@@ -84,7 +84,27 @@
    <!-- slider container -->
     <div class="slider">
 
-      <!-- slide 1 -->
+      <!-- slide 1 (Umbra Sync) -->
+      <div class="slide">
+        <div class="p-5">
+            <div class="row">
+                <a href="https://github.com/AlessioMartello/umbra-sync" target="_blank" rel="nofollow"> <h1 class="artlessiHeader">Umbra Sync</h1></a>
+            </div>
+            <div class="row">
+                <ul class="whitey">
+                    <li><h2>Async Python tool that extracts contact details from Outlook emails and syncs them to Monday.com</h2></li>
+                    <li><h2>Features: trusted-sender filtering, deduplication by email, watermark incremental sync, and selective field updates</h2></li>
+                    <li><h2>Built with Python 3.12+, Pydantic models, httpx for async HTTP, tenacity retry logic, and Microsoft Graph + Monday GraphQL integrations</h2></li>
+                    <li><h2>Designed for reliability: structured logging, CI tests (pytest + respx), and dry-run support</h2></li>
+                </ul>
+                <div class="container hideGif" style="text-align:center;">
+                     <a href="https://github.com/AlessioMartello/umbra-sync" target="_blank" rel="nofollow"><img class="gif" src="https://raw.githubusercontent.com/AlessioMartello/umbra-sync/main/docs/umbra-sync-hero.png" alt="Umbra Sync"/></a>
+               </div>
+            </div>
+        </div>
+      </div>
+
+      <!-- slide 2 -->
       <div class="slide">
         <div class="p-5">
             <div class="row">
@@ -187,46 +207,63 @@
 <!-- Skills-->
 <div id="skills" style="color:white">
     <div class="container p-5">
-            <h1 id="aboutMe" style="color:#e1ad01">About me</h1>
-      </div>
-    
+        <h1 id="aboutMe" style="color:#e1ad01">About me</h1>
+    </div>
 
     <div class="container" id="scrollerRight" style="opacity:0;">
         <h4>
-            <p>Hi! Thanks for stopping by! I’m Alessio and I'm <span id="myAge"></span>. I’m a self-taught programmer. I work as a Senior Data Engineer & Technical Consultant in the Private Equity industry. I lead end to end cloud data migrations.</p>
-        <p>In my spare time I'm commited to learning new backend and frontend development programming skills. My tech stack:
+            <p>Hi! Thanks for stopping by! I’m Alessio and I'm <span id="myAge"></span>. I’m a self-taught programmer. I work as a Senior Data Engineer & Technical Consultant. I lead end-to-end cloud data migrations.</p>
+            <p>In my spare time I'm committed to learning new backend and frontend development programming skills. My tech stack includes the items below — including tools used in projects like <a href="https://github.com/AlessioMartello/umbra-sync" target="_blank" rel="noopener noreferrer">Umbra Sync</a>.</p>
         </h4>
     </div>
+
     <div class="container pt-0" id="scrollerLeft">
         <h4>
-        Back end
+            <strong>Back end</strong>
             <ul>
-                <li>Python (<a href="https://github.com/AlessioMartello/VISSIM" target="_blank" rel="noopener noreferrer">Pandas</a>, Requests, <a href="https://github.com/AlessioMartello/finance-dash-app" target="_blank" rel="noopener noreferrer">Python-Dash</a>)</li>
-                <li>SQL (Data warehousing, Stored Procedures)</li>
-                <li>Azure Cloud Infrastructure Administration</li>
+                <li>Python (3.12+), async/await, typed code</li>
+                <li>Pandas, SQLAlchemy, requests, httpx, dlt, uv, Pydantic</li>
+                <li>Testing: pytest; mocking with respx</li>
+                <li>APIs: Microsoft Graph (Outlook), OAuth2/msal, Monday.com GraphQL, REST (JSON & XML)</li>
+                <li>Retry/Resilience: tenacity; structured logging</li>
+                <li>SQL/T-SQL, data warehousing, Stored Procedures</li>
             </ul>
 
-
-        Front end
+            <strong>Data Engineering & Orchestration</strong>
             <ul>
-                <li>HTML, CSS, Bootstrap</li>
-                <li>JavaScript (This very website)</li>
-                <li>Python (<a href="https://github.com/AlessioMartello/art_shop" target="_blank" rel="noopener noreferrer">Django</a>, <a href="https://github.com/AlessioMartello/Consulate-Bot" target="_blank" rel="noopener noreferrer">Selenium</a> & BeautifulSoup)</li>
-                <li>Power BI & DAX</li>
+                <li>dbt, SQLMesh, Prefect</li>
+                <li>Snowflake, Matillion, delta-load patterns</li>
+                <li>Infrastructure as Code: Terraform; GitHub Workflows CI/CD</li>
             </ul>
 
-
-        Cloud
+            <strong>Cloud & Platform</strong>
             <ul>
-                <li>    Azure Cloud computing (Azure Data Factory, Azure Blob Storage, Logic Apps, Azure SQL databases, Azure Functions)</li>
-                <a href="https://www.credly.com/badges/42e2805f-34e5-4253-852b-7f73da020919/public_url" target="_blank" rel="noopener noreferrer"><li>    Microsoft Certified Azure Data Engineer Associate</a></li>
-                <li>    Heroku</li>
-                <li>    <a href="https://github.com/AlessioMartello/finance-dash-app" target="_blank" rel="noopener noreferrer">Google Drive API</a></li>
-                <li>Matllion</li>
-                <li>Snowflake</li>
+                <li>Azure: Fabric, Data Factory, Container Apps, Blob Storage, Function Apps, Logic Apps, Key Vault, Entra ID</li>
+                <li>AWS: Step Functions, Athena, S3, CloudWatch</li>
+                <li>Heroku (past projects)</li>
             </ul>
 
+            <strong>Front end & Automation</strong>
+            <ul>
+                <li>HTML, CSS, Bootstrap, JavaScript (this website)</li>
+                <li>Dash dashboards; Power BI & DAX for reporting</li>
+                <li>Selenium, BeautifulSoup for automation and scraping</li>
+            </ul>
 
+            <strong>Tools, Testing & Dev UX</strong>
+            <ul>
+                <li>mise & uv for reproducible environments; ruff for lint/format</li>
+                <li>pytest + respx; code coverage (codecov); pre-commit hooks</li>
+                <li>GitHub Actions CI and workflow automation</li>
+            </ul>
+
+            <strong>Other</strong>
+            <ul>
+                <li>Certifications: Microsoft Certified — Azure Data Engineer Associate (DP-203), Snowflake SnowPro Core</li>
+                <li>Experience building reliable syncs: watermarking, deduplication, trust-list filters</li>
+                <li>Familiar with OAuth2 flows, secure credential handling and enterprise auth (msal/Entra ID)</li>
+                <li>AI-assisted development: Claude & GitHub Copilot for coding and reviews</li>
+            </ul>
         </h4>
     </div>
 </div>
