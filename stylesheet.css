@@ -148,6 +148,13 @@ font-family: 'Epilogue', sans-serif;
 
 }
 
+/* Ensure project list bullets use a consistent readable size */
+.whitey li, .whitey .project-bullet {
+  font-size: 2rem;
+  line-height: 1.3;
+  margin-bottom: 0.5rem;
+}
+
 .dark-mode{
     background-color:black;
 }
@@ -212,6 +219,7 @@ font-family: 'Epilogue', sans-serif;
   h2{
     font-size: 1.5rem;
   }
+  .whitey li, .whitey .project-bullet { font-size: 1.25rem; }
   .hideGif{
     display: none;
   }
